@@ -32,7 +32,7 @@ public class GitlabUrlUtility {
 	private static final String GIT_EXTENSION = ".git";
 	private static final String DEFAULT_PROTOCOL = "http";
 	private static final String SEGMENT_API = "api";
-	private static final String V3 = "v3";
+	private static final String V1 = "v1";
 	private static final String V4 = "v4";
 	private static final String PROJECTS_SEGMENT = "projects";
 	private static final String COMMITS_API = "/repository/commits/";
