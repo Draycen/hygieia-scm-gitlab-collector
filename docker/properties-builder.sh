@@ -11,9 +11,9 @@ fi
 if [ "$TEST_SCRIPT" != "" ]
 then
         #for testing locally
-        PROP_FILE=application.properties
+        PROP_FILE=/hygieia/config/application.properties
 else 
-	PROP_FILE=config/hygieia-gitlab-scm-collector.properties
+	PROP_FILE=/hygieia/config/application.properties
 fi
   
 if [ "$MONGO_PORT" != "" ]; then
