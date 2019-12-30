@@ -288,7 +288,7 @@
 				<configuration>
 					<skipDockerBuild>false</skipDockerBuild>
 					<imageName>${repository.name}</imageName> <!-- keeping image name in sync with repo name-->
-					<dockerDirectory>${project.basedir}/docker</dockerDirectory>
+					<dockerDirectory>./</dockerDirectory>
 					<resources>
 						<resource>
 							<targetPath>/</targetPath>

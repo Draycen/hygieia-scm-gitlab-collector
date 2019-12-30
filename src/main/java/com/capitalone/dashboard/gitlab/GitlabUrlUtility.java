@@ -364,7 +364,7 @@ public class GitlabUrlUtility {
 	}
 
 	private String getApiVersion() {
-		return gitlabSettings.getApiVersion() == 3 ? V3 : V4;
+		return gitlabSettings.getApiVersion() == 1 ? V1 : V4;
 	}
 
 	public URI updatePage(URI uri, int nextPage) {
